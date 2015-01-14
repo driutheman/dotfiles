@@ -46,6 +46,7 @@ declare -a HOMEBREW_ALTERNATE_CASKS=(
     "opera-beta"
     "opera-developer"
     "webkit-nightly"
+    "sublime-text3"
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

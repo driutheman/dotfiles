@@ -10,7 +10,7 @@ declare -a APT_PACKAGES=(
 
     # Software which is not included by default
     # in Ubuntu due to legal or copyright reasons
-    #"ubuntu-restricted-extras"
+    "ubuntu-restricted-extras"
 
     # Other
     "atom"
@@ -21,13 +21,16 @@ declare -a APT_PACKAGES=(
     "gimp"
     "git"
     "google-chrome-unstable"
+    "htop"
     "imagemagick"
     "nautilus-dropbox"
     "nodejs"
     "npm"
     "opera"
     "opera-next"
+    "sublime-text-installer"
     "transmission"
+    "tree"
     "vim-gnome"
     "virtualbox"
     "vlc"
@@ -75,6 +78,10 @@ add_software_sources() {
         && add_source_list \
                 "http://deb.opera.com/opera/ stable non-free" \
                 "opera.list"
+
+    # Sublime Text 3
+    [ $(cmd_exists "subl") -eq 1 ] \
+        && add_ppa "webupd8team/sublime-text-3"
 
 }
 

@@ -35,7 +35,7 @@ set_ui_and_ux_settings() {
     #gsettings set org.gnome.desktop.background picture-uri "file:///home/..."
 
     # Set keyboard languages
-    gsettings set org.gnome.libgnomekbd.keyboard layouts "[ 'us', 'ro' ]"
+    gsettings set org.gnome.libgnomekbd.keyboard layouts "[ 'us', 'lt' ]"
 
     # Set Launcher favorites
     gsettings set com.canonical.Unity.Launcher favorites "[
@@ -46,7 +46,8 @@ set_ui_and_ux_settings() {
         'firefox.desktop',
         'firefox-trunk.desktop',
         'opera-browser.desktop',
-        'opera-next-browser.desktop'
+        'opera-next-browser.desktop',
+        'sublime-text.desktop'
     ]"
 
 }
