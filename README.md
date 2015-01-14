@@ -1,4 +1,4 @@
-# Cătălin’s dotfiles
+# Andriaus dotfiles
 
 ## Setup
 
