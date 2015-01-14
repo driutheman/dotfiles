@@ -44,3 +44,7 @@ instead of downloading the dotfiles, it will just fetch the latest changes.
   [dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [Nicolas Gallagher](https://github.com/necolas) ~
   [dotfiles](https://github.com/necolas/dotfiles)
+* [Cătălin Mariș](https://github.com/alrra) ~
+  [dotfiles](https://github.com/alrra/dotfiles)
+* [Paul Dixon](https://github.com/mintbridge) ~
+  [dotfiles](https://github.com/mintbridge/dotfiles)
